@@ -1,31 +1,32 @@
-body{
+body {
   background: #ffece5;
   font-family: verdana;
 }
-.new-user{
+.new-user {
   background: #fff;
   padding: 20px 40px;
   max-width: 300px;
   margin: 0 auto;
 }
-h2{
+h2 {
   color: #555;
 }
-label,input{
+label,
+input {
   display: block;
   margin: 18px 0;
 }
-label{
+label {
   color: #777;
 }
-input[type='text'],
-input[type='email']{
+input[type="text"],
+input[type="email"] {
   border: 1px solid #ddd;
   padding: 10px;
   border-radius: 10px;
   width: 100%;
 }
-input[type='submit']{
+input[type="submit"] {
   margin: 24px auto;
   font-size: 18px;
   background: coral;
@@ -33,4 +34,7 @@ input[type='submit']{
   padding: 6px 16px;
   border: none;
   border-radius: 10px;
+}
+.error {
+  color: coral;
 }
